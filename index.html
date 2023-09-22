@@ -4,33 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css"
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="header">
       <h3>Header Logo</h3>
-      <nav class="main-nav">
-        <ul>
-          <li>Header Link one</li>
-          <li>Header Link two</li>
-          <li class="btn">Header Link Three</li>
+      <nav class="main-navbar">
+        <ul class="navbar">
+          <li class="nav-item">
+            <a class="navbar-link" href="#">Header Link one</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-link" href="#">Header Link two</a>
+          </li>
+          <li class="btn nav-item">
+            <a class="navbar-link" href="#">Header Link Three</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="hero-section">
         <div class="hero">
-          <h1>This Website is awesome</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa unde
-            id non eaque cum incidunt velit tempore ipsam veniam esse
-            praesentium, recusandae iusto. Ipsa voluptatibus fuga commodi unde
-            numquam quidem?
-          </p>
-          <button class="btn">Sign Up</button>
-        </div>
-        <div class="hero-image-div">
-          <img src="images/hero.jpg" alt="" class="hero-image" />
+          <div class="hero-text-box">
+            <h1>This Website is awesome</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+              unde id non eaque cum incidunt velit tempore ipsam veniam esse
+              praesentium, recusandae iusto. Ipsa voluptatibus fuga commodi unde
+              numquam quidem?
+            </p>
+            <button class="btn">
+              <a href="#" class="btn-link">Sign Up</a>
+            </button>
+          </div>
+
+          <div class="hero-image-div">
+            <img src="images/hero.jpg" alt="" class="hero-image" />
+          </div>
         </div>
       </section>
       <section class="about-section">
@@ -143,18 +154,18 @@
       </section>
       <section class="call-section">
         <div class="call-action">
-          <h3>Call to action! it's time</h3>
-          <p>
+          <h3 class="call-action-item">Call to action! it's time</h3>
+          <p class="call-action-item">
             Sign up for our product by clicking that button rigth over there !
           </p>
         </div>
         <div>
-          <button class="btn action-btn">Sign Up</button>
+          <button class="btn action-btn call-action-item">Sign Up</button>
         </div>
       </section>
     </main>
     <footer>
-      <p>Copyright &copy; 2023</p>
+      <p>Copyright &copy 2023</p>
     </footer>
   </body>
 </html>
