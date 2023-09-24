@@ -218,6 +218,74 @@ footer {
 .contact-section {
   height: 100vh;
 }
+.contact {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 9.6rem;
+  padding: 9.6rem 20rem;
+}
+.contact-form {
+  flex: 2;
+}
+.contact-text {
+  flex: 1;
+}
+
+.contact h3 {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+  color: #1f2937;
+}
+.contact h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+  color: #1f2937;
+}
+
+.contact p {
+  font-size: 0.8rem;
+  font-weight: normal;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #adb5bd;
+}
+form input[type="text"],
+form input[type="number"],
+form input[type="email"] {
+  width: 300px;
+  height: 2.4rem;
+  margin-right: 1.2rem;
+  margin-bottom: 1.2rem;
+  border-radius: 20px;
+  border: 2px solid #e5e7eb;
+  padding: 0.8rem 1.6rem;
+  outline: 1px solid #3882f6;
+}
+
+textarea {
+  resize: none;
+  display: block;
+  width: 625px;
+  height: 300px;
+  border: 2px solid #e5e7eb;
+  outline: 1px solid #3882f6;
+  border-radius: 10px;
+  padding: 1.2rem 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.submit {
+  border: none;
+  width: 200px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 1.2rem 2.4rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
 @media (max-width: 900px) {
   h1 {
     text-align: center;
