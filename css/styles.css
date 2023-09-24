@@ -39,6 +39,7 @@ footer {
 }
 .navbar li {
   list-style: none;
+  text-transform: uppercase;
 }
 .navbar {
   display: flex;
@@ -118,10 +119,11 @@ h1 {
   gap: 3.2rem;
 }
 .about-head {
+  font-size: 2.4rem;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 3.6rem;
-  color: #868e96;
+  color: #1f2937;
 }
 
 .icon {
@@ -181,6 +183,40 @@ footer {
   align-items: center;
   justify-content: center;
   height: 4.8rem;
+  margin-bottom: 0;
+}
+.story-section-page {
+  height: 50vh;
+  /* max-width: 80rem; */
+}
+
+.about-story-div {
+  /* max-width: 80rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9.6rem 30rem;
+  gap: 4.8rem;
+  margin-bottom: 1.2rem;
+}
+.story-image {
+  height: 9.6rem;
+}
+.story-head {
+  font-size: 2.4rem;
+  letter-spacing: -0.2rem;
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+  color: #1f2937;
+}
+.story {
+  line-height: 1.7;
+  font-weight: 400;
+  color: #868e96;
+}
+
+.contact-section {
+  height: 100vh;
 }
 @media (max-width: 900px) {
   h1 {
