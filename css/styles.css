@@ -314,17 +314,56 @@ footer {
   margin-bottom: 1rem;
   color: #adb5bd;
 }
+.input-group {
+  position: relative;
+}
+.placeholder {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  padding: 0 18px;
+  color: #666;
+  transition: 0.6s;
+  pointer-events: none;
+}
+
+.placeholder-lname {
+  position: absolute;
+  top: 10px;
+  right: 300px;
+  padding: 0 18px;
+  color: #666;
+  transition: 0.6s;
+  pointer-events: none;
+}
+.input-form:focus ~ .placeholder,
+.input-form:valid ~ .placeholder {
+  transform: translateX(10px) translateY(-20px);
+  color: #3882f6;
+  font-size: 12px;
+  background-color: #fff;
+  padding-left: 35px;
+}
+
+.input-lname:focus ~ .placeholder-lname,
+.input-form:valid ~ .placeholder-lname {
+  transform: translateX(10px) translateY(-20px);
+  color: #3882f6;
+  font-size: 12px;
+  background-color: #fff;
+}
 form input[type="text"],
 form input[type="number"],
 form input[type="email"] {
+  font-size: 18px;
   width: 300px;
   height: 2.4rem;
   margin-right: 1.2rem;
   margin-bottom: 1.2rem;
   border-radius: 20px;
-  border: 2px solid #e5e7eb;
+  border: 2px solid #3882f6;
   padding: 0.8rem 1.6rem;
-  outline: 1px solid #3882f6;
+  outline: none;
 }
 
 textarea {
