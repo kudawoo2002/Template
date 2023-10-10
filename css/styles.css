@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto-bold";
   src: url(../fonts/Roboto-Bold.ttf) format("truetype");
   font-weight: bolder;
 }
@@ -182,11 +182,12 @@ h1 {
   align-items: center;
   gap: 3.2rem;
 }
+
 .about-head {
   font-size: 2.4rem;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 3.6rem;
+  margin-bottom: 3.2rem;
   color: #1f2937;
 }
 
@@ -211,11 +212,13 @@ h1 {
   position: relative;
 }
 .inspiration {
-  color: #adb5bd;
-  font-size: 1.2rem;
-  font-weight: 400;
+  color: #1f2937;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: lighter;
   line-height: 1.3;
   padding: 0.8rem 1.2rem;
+  font-style: italic;
 }
 
 .author {
@@ -250,8 +253,9 @@ footer {
   margin-bottom: 0;
 }
 .story-section-page {
-  height: 50vh;
+  height: 40vh;
   /* max-width: 80rem; */
+  margin-bottom: 3.4rem;
 }
 
 .about-story-div {
@@ -260,6 +264,16 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 9.6rem 30rem;
+  gap: 4.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.about-section-div {
+  /* max-width: 80rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30rem;
   gap: 4.8rem;
   margin-bottom: 1.2rem;
 }
@@ -318,7 +332,7 @@ footer {
   position: relative;
 }
 .placeholder {
-  position: absolute;
+  /* position: absolute; */
   top: 10px;
   left: 8px;
   padding: 0 18px;
@@ -328,7 +342,7 @@ footer {
 }
 
 .placeholder-lname {
-  position: absolute;
+  /* position: absolute; */
   top: 10px;
   right: 300px;
   padding: 0 18px;
@@ -381,6 +395,8 @@ textarea {
   border-radius: 10px;
   padding: 1.2rem 1.6rem;
   margin-bottom: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
 
 .submit {
