@@ -253,7 +253,11 @@ footer {
   height: 4.8rem;
   margin-bottom: 0;
 }
-
+.action-btn a {
+  text-decoration: none;
+  color: #e5e7eb;
+  cursor: pointer;
+}
 @media (max-width: 900px) {
   h1 {
     text-align: center;
