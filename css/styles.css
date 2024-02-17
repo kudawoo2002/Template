@@ -57,6 +57,7 @@ footer {
   text-decoration: none;
   color: #e5e7eb;
   cursor: pointer;
+  /* transition: all 1s; */
 }
 
 @keyframes moveInLeft {
@@ -150,6 +151,20 @@ h1 {
   text-decoration: none;
   color: #e5e7eb;
   cursor: pointer;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+  text-decoration: none;
+  background-color: #e5e7eb;
+  color: #3882f6;
+  padding: 12px 24px;
+
+  border: none;
+  border-radius: 10px;
+
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .btn-animation {
